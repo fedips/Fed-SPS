@@ -1,0 +1,13 @@
+python main_odr.py \
+    --dataset "cifar10" \
+    --model "cnn" \
+    --target_dir "dir" \
+    --gpu 0 \
+    --seed 1 \
+    --global_epochs 10 \
+    --local_epochs 1 \
+    --eval_epoch 1 \
+    --lr_local 0.1 \
+    --alpha_odr 0.0 \
+    --beta_odr 1. \
+    --odr
